@@ -7,7 +7,7 @@ import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
 import "./EmpList.css";
 // import EmpDetails1 from "./EmpDetails1";
-import "./EmpList1.js";
+import "./EmpList1.jsx";
 function EmpList1(){
     const [data,setData]=useState(null)
     const navigate=useNavigate()
